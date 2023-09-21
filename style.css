@@ -110,7 +110,60 @@ p{
     flex-direction: column;
 }
 
-@media (max-width: 768px){
+@media (max-width: 445px){
+  .skills{
+      display: block;
+      flex-direction: row;
+      width: 100%;
+  }
+  .parent{
+      display:flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .chilli-img {
+      float: none;
+      justify-content: center;
+  }
+  .cat{
+      justify-content: center;
+  }
+  p{
+  text-align: center;
+  }
+  .header{
+  font-size: 20px;
+  }
+  .containers.projects {
+      display: block;
+    }
+    .project-table {
+      display: block;
+      margin: 0;
+    }
+    div.project {
+      margin: 20px;
+  }
+  .sizing{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+  }
+  .buttonplacement{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin-left: 162px;
+    width: 100px;
+    justify-content: center;
+    border-color: black;
+  }
+}
+@media (min-width: 446px) and (max-width: 768px){
     .skills{
         display: block;
         flex-direction: row;
@@ -146,6 +199,12 @@ p{
       }
       div.project {
         margin: 20px;
+    }
+    .sizing{
+      font-size: 15px;
+      margin-top: 10px;
+      padding-top: 10px;
+      font-weight: bold;
     }
 }
 
