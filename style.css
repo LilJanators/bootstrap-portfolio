@@ -154,12 +154,10 @@ p{
     font-weight: bold;
   }
   .buttonplacement{
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    margin-left: 162px;
-    width: 100px;
-    justify-content: center;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 2px;
     border-color: black;
   }
 }
